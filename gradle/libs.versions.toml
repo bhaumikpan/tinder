@@ -1,0 +1,64 @@
+[versions]
+agp = "8.6.0"
+androidxJunit = "1.2.1"
+annotation = "1.8.2"
+appcompat = "1.7.0"
+constraintlayout = "2.1.4"
+constraintlayoutVersion = "2.1.4"
+coordinatorlayout = "1.2.0"
+coordinatorlayoutVersion = "1.2.0"
+coreKtxVersion = "1.13.1"
+espressoCoreVersion = "3.6.1"
+fragmentKtx = "1.8.2"
+glide = "4.11.0"
+gson = "2.10.1"
+hiltAndroid = "2.48"
+junitJunit = "4.13.2"
+junitJupiterApi = "5.4.2"
+kotlin = "1.9.0"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+kotlinGradlePlugin = "1.9.0"
+kotlinxCoroutinesTest = "1.7.3"
+lifecycleRuntimeKtx = "2.6.1"
+lifecycleRuntimeKtxVersion = "2.8.4"
+material = "1.12.0"
+appcompatVersion = "1.7.0"
+kotlinVersion = "1.9.0"
+mockk = "1.12.0"
+recyclerview = "1.3.2"
+
+[libraries]
+annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinatorlayoutVersion" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hiltAndroid" }
+junit = { module = "junit:junit", version.ref = "junitJunit" }
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junitJupiterApi" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junitJupiterApi" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompatVersion" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+
+[plugins]
+#android-application = { id = "com.android.application", version.ref = "agp" }
+#kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+
